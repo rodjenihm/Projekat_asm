@@ -32,7 +32,7 @@ Masar = ((Dryi^2-Dri^2)*pi/4+wtr*htr*Qr)*l*Rofe+S1prr*l*Roal*Qr;
 openfemm
 opendocument('simulacija.FEM')
 
-for i = 9 : 1 : 9%length(Dse)
+for i = 1 : 1 : length(Dse)
     mi_selectgroup(2)
     mi_scale2(0, 0, Dse(i)/Dse0, 4);
     
